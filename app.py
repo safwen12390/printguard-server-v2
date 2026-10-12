@@ -25,8 +25,13 @@ app = Flask(__name__)
 CORS(app)
 import traceback
 
+from werkzeug.exceptions import HTTPException
+
 @app.errorhandler(Exception)
 def _log_exception(e):
+    # Don't intercept HTTP errors (404, 405, etc.) — return them normally
+    if isinstance(e, HTTPException):
+        return e
     traceback.print_exc()
     return jsonify({"error": str(e), "status": "error"}), 500
 
@@ -125,6 +130,13 @@ def status():
         "version": "1.0.0",
     })
 
+@app.route("/", methods=["GET", "HEAD"])
+def root():
+    return jsonify({
+        "service": "PrintGuard backend",
+        "status": "ok",
+        "endpoints": ["/status", "/upload_raw", "/detect", "/stream", "/ai/chat", "/ai/explain", "/recommend"],
+    })
 
 @app.route("/upload_raw", methods=["POST"])
 def upload_raw():
