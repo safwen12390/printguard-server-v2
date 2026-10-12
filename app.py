@@ -23,6 +23,12 @@ from ai_service import diagnose as rag_diagnose  # RAG service
 
 app = Flask(__name__)
 CORS(app)
+import traceback
+
+@app.errorhandler(Exception)
+def _log_exception(e):
+    traceback.print_exc()
+    return jsonify({"error": str(e), "status": "error"}), 500
 
 # ── Load YOLO model ───────────────────────────────────────────────
 model = YOLO("best.pt")
