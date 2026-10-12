@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.venv/
+.git_old_backup/
+.idea/
+.vscode/
+firebase-service-account.json
+*.zip
