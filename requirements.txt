@@ -12,4 +12,4 @@ sentence-transformers==2.7.0
 transformers==4.44.0
 python-dotenv>=1.0.0
 onnxruntime==1.19.2
-tokenizers==0.19.1git status
+tokenizers==0.19.1
