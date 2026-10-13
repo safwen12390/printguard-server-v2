@@ -10,6 +10,9 @@ venv/
 .vscode/
 firebase-service-account.json
 *.zip
+*.backup
+export_onnx.py
+test_onnx.py
 data/chroma_db/
 data/chroma_db.bak/
 *.bak
