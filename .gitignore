@@ -10,3 +10,7 @@ venv/
 .vscode/
 firebase-service-account.json
 *.zip
+data/chroma_db/
+data/chroma_db.bak/
+*.bak
+append_new_docs.py

@@ -27,63 +27,63 @@
     "doc_id": "warping_004",
     "class": "warping",
     "title": "Warping: first-layer quality and build plate adhesion",
-    "source": "Bambu Lab Wiki \u2014 P2S/X2D Model Warping Troubleshooting",
+    "source": "Bambu Lab Wiki — P2S/X2D Model Warping Troubleshooting",
     "url": "https://wiki.bambulab.com/en/x2d/troubleshooting/preventing-warping-p2s-x2d",
-    "text": "If the first-layer lines are sparse and do not bond firmly to the build plate, the bottom of the model will not adhere well, making it more prone to warping or detaching. When warping occurs, check whether the first layer is flat, well compacted, and has continuous lines. Dirt or grease on the build plate reduces adhesion \u2014 wash the plate with warm water and dish soap, then dry it, and do not touch the print surface with bare hands afterward. Filaments with high moisture absorption such as PETG become less stable during extrusion once they absorb moisture, making them more prone to poor adhesion and warping."
+    "text": "If the first-layer lines are sparse and do not bond firmly to the build plate, the bottom of the model will not adhere well, making it more prone to warping or detaching. When warping occurs, check whether the first layer is flat, well compacted, and has continuous lines. Dirt or grease on the build plate reduces adhesion — wash the plate with warm water and dish soap, then dry it, and do not touch the print surface with bare hands afterward. Filaments with high moisture absorption such as PETG become less stable during extrusion once they absorb moisture, making them more prone to poor adhesion and warping."
   },
   {
     "doc_id": "stringing_001",
     "class": "stringing",
     "title": "Stringing and oozing: what they are and why they happen",
-    "source": "Prusa Knowledge Base \u2014 Stringing and oozing",
+    "source": "Prusa Knowledge Base — Stringing and oozing",
     "url": "https://help.prusa3d.com/article/stringing-and-oozing_1805",
-    "text": "Stringing or oozing, also known as hairy prints, refers to small strings of filament left on a printed model. This happens when filament continues to flow from the nozzle while the extruder is moving to another object. The main causes are very high printing temperatures and incorrect retraction settings. The fix involves adjusting a few settings in the slicer and checking the hardware. If you print for a long time with a single type of filament such as PETG, the filament can create a thin layer in the nozzle, which also causes stringing \u2014 cleaning the nozzle thoroughly before printing helps."
+    "text": "Stringing or oozing, also known as hairy prints, refers to small strings of filament left on a printed model. This happens when filament continues to flow from the nozzle while the extruder is moving to another object. The main causes are very high printing temperatures and incorrect retraction settings. The fix involves adjusting a few settings in the slicer and checking the hardware. If you print for a long time with a single type of filament such as PETG, the filament can create a thin layer in the nozzle, which also causes stringing — cleaning the nozzle thoroughly before printing helps."
   },
   {
     "doc_id": "stringing_002",
     "class": "stringing",
     "title": "Stringing: retraction length and lift Z settings",
-    "source": "Prusa Knowledge Base \u2014 Stringing and oozing",
+    "source": "Prusa Knowledge Base — Stringing and oozing",
     "url": "https://help.prusa3d.com/article/stringing-and-oozing_1805",
-    "text": "Retraction length is the amount the filament is pulled back when a retraction is triggered. On the MK2.5/S and MK3/S/+ the retraction length should be a maximum of 2 mm. Due to the Bowden extruder, the retraction length of the Original Prusa MINI/MINI+ presets are much longer, with a default of 3.2 mm. Lift Z lifts the extruder during movement \u2014 having this setting lower improves stringing, but disabling it entirely may cause the nozzle to hit the printed part. Retraction speed should be higher for better stringing results, but if too high it may skip steps in the motor."
+    "text": "Retraction length is the amount the filament is pulled back when a retraction is triggered. On the MK2.5/S and MK3/S/+ the retraction length should be a maximum of 2 mm. Due to the Bowden extruder, the retraction length of the Original Prusa MINI/MINI+ presets are much longer, with a default of 3.2 mm. Lift Z lifts the extruder during movement — having this setting lower improves stringing, but disabling it entirely may cause the nozzle to hit the printed part. Retraction speed should be higher for better stringing results, but if too high it may skip steps in the motor."
   },
   {
     "doc_id": "stringing_003",
     "class": "stringing",
     "title": "Stringing: nozzle temperature and slicer travel settings",
-    "source": "Prusa Knowledge Base \u2014 Stringing and oozing",
+    "source": "Prusa Knowledge Base — Stringing and oozing",
     "url": "https://help.prusa3d.com/article/stringing-and-oozing_1805",
-    "text": "Lowering the nozzle temperature decreases the occurrence of strings \u2014 try decreasing by 5-10\u00b0C and check whether there is less stringing. Other slicer settings that affect stringing include 'Only retract when crossing perimeters,' which disables retraction when the travel path does not exceed the upper layer's perimeter, so any oozing happens within the walls and is invisible. 'Avoid crossing perimeters' optimizes travel moves to minimize perimeter crossings, which lowers stringing especially on the MINI/MINI+. 'Retract on layer change' is recommended to be left on."
+    "text": "Lowering the nozzle temperature decreases the occurrence of strings — try decreasing by 5-10°C and check whether there is less stringing. Other slicer settings that affect stringing include 'Only retract when crossing perimeters,' which disables retraction when the travel path does not exceed the upper layer's perimeter, so any oozing happens within the walls and is invisible. 'Avoid crossing perimeters' optimizes travel moves to minimize perimeter crossings, which lowers stringing especially on the MINI/MINI+. 'Retract on layer change' is recommended to be left on."
   },
   {
     "doc_id": "stringing_004",
     "class": "stringing",
     "title": "Stringing: damp filament and nozzle cleaning",
-    "source": "Prusa Knowledge Base \u2014 Stringing and oozing",
+    "source": "Prusa Knowledge Base — Stringing and oozing",
     "url": "https://help.prusa3d.com/article/stringing-and-oozing_1805",
-    "text": "Filament that has gathered moisture causes a lot of stringing \u2014 try using a different spool or drying the filament before printing. Stringing can also be caused by a heat dissipation issue in the nozzle \u2014 try re-applying thermal paste on the threads between the heatbreak and the heatsink. If you have recently changed any component in the hotend, it is possible that some individual parts are not in place, so go over the assembly of the hotend. On Bambu Lab printers, damp filament is also listed as a primary cause of stringing and oozing, with drying before printing and storing in an airtight container with desiccant as the recommended fix."
+    "text": "Filament that has gathered moisture causes a lot of stringing — try using a different spool or drying the filament before printing. Stringing can also be caused by a heat dissipation issue in the nozzle — try re-applying thermal paste on the threads between the heatbreak and the heatsink. If you have recently changed any component in the hotend, it is possible that some individual parts are not in place, so go over the assembly of the hotend. On Bambu Lab printers, damp filament is also listed as a primary cause of stringing and oozing, with drying before printing and storing in an airtight container with desiccant as the recommended fix."
   },
   {
     "doc_id": "under_extrusion_001",
     "class": "under_extrusion",
     "title": "Under-extrusion: recognizing the defect and first-layer calibration",
-    "source": "Prusa Knowledge Base \u2014 Under-extrusion",
+    "source": "Prusa Knowledge Base — Under-extrusion",
     "url": "https://help.prusa3d.com/article/under-extrusion_2007",
-    "text": "You can recognize under-extrusion when there is material missing in your print's layers. Printed objects with under-extruded layers can be fragile and tend to break apart. One common cause is first-layer calibration being too close \u2014 if the nozzle is too close to the build plate, the filament can be obstructed from passing through. Avoid compensating for lack of adhesion by squishing the first layer too much. Run first-layer calibration every time you move the printer or perform maintenance on the hotend such as changing the nozzle."
+    "text": "You can recognize under-extrusion when there is material missing in your print's layers. Printed objects with under-extruded layers can be fragile and tend to break apart. One common cause is first-layer calibration being too close — if the nozzle is too close to the build plate, the filament can be obstructed from passing through. Avoid compensating for lack of adhesion by squishing the first layer too much. Run first-layer calibration every time you move the printer or perform maintenance on the hotend such as changing the nozzle."
   },
   {
     "doc_id": "under_extrusion_002",
     "class": "under_extrusion",
     "title": "Under-extrusion: nozzle issues and special nozzle temperature requirements",
-    "source": "Prusa Knowledge Base \u2014 Under-extrusion",
+    "source": "Prusa Knowledge Base — Under-extrusion",
     "url": "https://help.prusa3d.com/article/under-extrusion_2007",
-    "text": "If the nozzle has been removed from the hotend, make sure it has been reinstalled correctly. Incorrect installation can cause both clogs and leaks. The nozzle must be tightened when heated and there must be a gap between the nozzle and the heater block. Check the extruder and hotend for damage such as wires or a bent heatbreak. If using special nozzles such as hardened steel, you may need to increase the nozzle temperature during printing, usually within a range of 5-10\u00b0C, because steel has different thermal properties compared to brass. Higher temperatures can also cause increased stringing, so balance is needed."
+    "text": "If the nozzle has been removed from the hotend, make sure it has been reinstalled correctly. Incorrect installation can cause both clogs and leaks. The nozzle must be tightened when heated and there must be a gap between the nozzle and the heater block. Check the extruder and hotend for damage such as wires or a bent heatbreak. If using special nozzles such as hardened steel, you may need to increase the nozzle temperature during printing, usually within a range of 5-10°C, because steel has different thermal properties compared to brass. Higher temperatures can also cause increased stringing, so balance is needed."
   },
   {
     "doc_id": "spaghetti_001",
     "class": "spaghetti",
     "title": "Spaghetti: definition and what causes it",
-    "source": "Bambu Lab Wiki \u2014 Spaghetti Detection",
+    "source": "Bambu Lab Wiki — Spaghetti Detection",
     "url": "https://wiki.bambulab.com/en/x1/manual/spaghetti-detection",
     "text": "The term spaghetti covers a broad spectrum of print failures, most of which resemble the famous Italian pasta. There are also cases where filament fragments are not typically spaghetti-like but scattered in small pieces. Spaghetti typically occurs when the first layer fails to adhere properly and the print detaches from the build plate, allowing the nozzle to extrude filament into empty space. The most common underlying causes are first-layer adhesion failure, model detachment mid-print, or model errors in the STL file."
   },
@@ -91,15 +91,15 @@
     "doc_id": "spaghetti_002",
     "class": "spaghetti",
     "title": "Spaghetti: prevention and detection requirements",
-    "source": "Bambu Lab Wiki \u2014 Spaghetti Detection",
+    "source": "Bambu Lab Wiki — Spaghetti Detection",
     "url": "https://wiki.bambulab.com/en/x1/manual/spaghetti-detection",
-    "text": "To prevent spaghetti, ensure the build plate is clean \u2014 wash it with warm water and dish soap before printing to avoid adhesion problems and ensure slicer settings are correct. Modern printers with camera-based detection take a frame from the chamber camera every few seconds and feed it to an AI detector running on the NPU. The detector finds bounding boxes of potential spaghetti with a confidence value. If the confidence is high enough, it is considered a positive candidate. Results from the last 10 frames are accumulated, and if there are enough positive candidates that are spatially consistent, a spaghetti failure is detected."
+    "text": "To prevent spaghetti, ensure the build plate is clean — wash it with warm water and dish soap before printing to avoid adhesion problems and ensure slicer settings are correct. Modern printers with camera-based detection take a frame from the chamber camera every few seconds and feed it to an AI detector running on the NPU. The detector finds bounding boxes of potential spaghetti with a confidence value. If the confidence is high enough, it is considered a positive candidate. Results from the last 10 frames are accumulated, and if there are enough positive candidates that are spatially consistent, a spaghetti failure is detected."
   },
   {
     "doc_id": "warping_005",
     "class": "warping",
     "title": "Warping: signs and how to spot it early",
-    "source": "Creality Blog \u2014 3D Print Warping",
+    "source": "Creality Blog — 3D Print Warping",
     "url": "https://www.creality.com/blog/3d-print-warping",
     "text": "Early detection of warping can save a print from total failure. The most telling signs are lifted corners or edges where the bottom layers detach from the build plate, with the print curling upward like a banana skin. An uneven base that appears wavy or distorted makes higher layers unstable. Severe warping stress may cause visible cracks or splits, especially in brittle materials. In the worst case, the entire model pops off the bed mid-print. If warping appears on only one side, that usually indicates uneven heating or drafts affecting just one part of the print bed."
   },
@@ -107,7 +107,7 @@
     "doc_id": "warping_006",
     "class": "warping",
     "title": "Warping caused by poor bed adhesion and dirty build plate",
-    "source": "Creality Blog \u2014 3D Print Warping",
+    "source": "Creality Blog — 3D Print Warping",
     "url": "https://www.creality.com/blog/3d-print-warping",
     "text": "If the filament is not properly stuck to the build plate, the edges easily lift off. The most common culprits are dirty beds, incorrect bed temperature, or lack of adhesion aids. Fixes include cleaning the build plate with isopropyl alcohol and applying adhesives like glue stick, hairspray, or specialized 3D print sprays. For glass beds, a thin layer of PVA glue works well. Adding a brim or raft in the slicer increases surface area and stability, helping to prevent corners from lifting."
   },
@@ -115,7 +115,7 @@
     "doc_id": "warping_007",
     "class": "warping",
     "title": "Warping: material shrinkage and printing speed",
-    "source": "Creality Blog \u2014 3D Print Warping",
+    "source": "Creality Blog — 3D Print Warping",
     "url": "https://www.creality.com/blog/3d-print-warping",
     "text": "ABS filaments exhibit high shrinkage characteristics upon cooling, which predisposes them to warping. Printing too fast can also lead to warping because it does not allow enough time for proper adhesion between layers, and it accelerates cooling. An unlevel print bed means inconsistent first-layer contact, leading to warping on one side. Environmental factors like high humidity or cold room temperatures interfere with filament performance, and strong fans or open windows create uneven cooling, especially for high-temperature filaments like ABS and Nylon."
   },
@@ -123,15 +123,15 @@
     "doc_id": "warping_008",
     "class": "warping",
     "title": "Warping fixes: temperature, speed, and enclosure",
-    "source": "Creality Blog \u2014 3D Print Warping",
+    "source": "Creality Blog — 3D Print Warping",
     "url": "https://www.creality.com/blog/3d-print-warping",
-    "text": "To fix warping, increase the bed temperature by 5-10\u00b0C to improve adhesion. In most instances, PLA requires around 50-60\u00b0C, whereas ABS needs 90-110\u00b0C. Use an enclosure to keep uniform temperatures and avoid drafts \u2014 beginners can use homemade enclosures like a cardboard box lined with foam. Slow down the first layer to 40-50 mm/s for the first few layers to allow better cooling control. For slight warping, post-print fixes include sanding the base flat or gently heating the object with a hairdryer."
+    "text": "To fix warping, increase the bed temperature by 5-10°C to improve adhesion. In most instances, PLA requires around 50-60°C, whereas ABS needs 90-110°C. Use an enclosure to keep uniform temperatures and avoid drafts — beginners can use homemade enclosures like a cardboard box lined with foam. Slow down the first layer to 40-50 mm/s for the first few layers to allow better cooling control. For slight warping, post-print fixes include sanding the base flat or gently heating the object with a hairdryer."
   },
   {
     "doc_id": "warping_009",
     "class": "warping",
     "title": "Warping: bed adhesion and temperature consistency",
-    "source": "Snapmaker Blog \u2014 3D Print Warping",
+    "source": "Snapmaker Blog — 3D Print Warping",
     "url": "https://www.snapmaker.com/blog/3d-print-warping-cause-and-solution/",
     "text": "Warping happens because of uneven cooling. As plastic cools it contracts, and if the lower layers cool and contract while upper layers are still warm, internal stress lifts the corners. Bed adhesion issues include uneven bed leveling, dirty or oily build plates, and inappropriate bed surface material. Temperature problems include inconsistent bed temperature, drafts and ambient fluctuations, and incorrect nozzle temperature affecting layer adhesion. Insufficient first layer settings, lack of brim or raft, and high infill densities that cause internal stress can also contribute."
   },
@@ -139,15 +139,15 @@
     "doc_id": "warping_010",
     "class": "warping",
     "title": "Warping prevention: bed surface and adhesion aids",
-    "source": "Snapmaker Blog \u2014 3D Print Warping",
+    "source": "Snapmaker Blog — 3D Print Warping",
     "url": "https://www.snapmaker.com/blog/3d-print-warping-cause-and-solution/",
-    "text": "Clean the bed with isopropyl alcohol before each print to remove oils. Choose the right bed surface: glass beds provide a smooth flat surface often requiring adhesion aids, PEI sheets offer excellent adhesion for many materials especially when heated, and painter's tape is cost-effective for PLA. Adhesion aids include PVA-based glue sticks creating a tacky surface, and hairspray providing a sticky surface when applied evenly before heating. Enclosing the printer traps heat and creates a stable ambient temperature, preventing drafts \u2014 essential for ABS."
+    "text": "Clean the bed with isopropyl alcohol before each print to remove oils. Choose the right bed surface: glass beds provide a smooth flat surface often requiring adhesion aids, PEI sheets offer excellent adhesion for many materials especially when heated, and painter's tape is cost-effective for PLA. Adhesion aids include PVA-based glue sticks creating a tacky surface, and hairspray providing a sticky surface when applied evenly before heating. Enclosing the printer traps heat and creates a stable ambient temperature, preventing drafts — essential for ABS."
   },
   {
     "doc_id": "stringing_005",
     "class": "stringing",
     "title": "Stringing: retraction distance and speed tuning",
-    "source": "MatterHackers \u2014 Retraction Revisited",
+    "source": "MatterHackers — Retraction Revisited",
     "url": "https://www.matterhackers.com/about/retraction-revisited-oozing-stringing-and-leaky-prints",
     "text": "Retraction is your first line of defense against stringing. For retraction distance, start with 2-6mm for Bowden setups and 0.5-2mm for direct drive extruders. Too little retraction causes strings; too much can cause jams. Retraction speed of 25-45mm/s is typical. Faster speeds can help but too fast may grind filament. Extra prime or unretract distance adds a little filament after a travel move to combat under-extrusion at the start of a new line. Retraction minimum travel prevents unnecessary retractions on very short moves. Start with printer preset values and adjust in small increments."
   },
@@ -155,47 +155,47 @@
     "doc_id": "stringing_006",
     "class": "stringing",
     "title": "Stringing: nozzle temperature and travel speed",
-    "source": "MatterHackers \u2014 Retraction Revisited",
+    "source": "MatterHackers — Retraction Revisited",
     "url": "https://www.matterhackers.com/about/retraction-revisited-oozing-stringing-and-leaky-prints",
-    "text": "Filament that is too hot will ooze more. Try lowering your print temperature in 5\u00b0C steps until stringing improves, but do not go so low that you get poor layer adhesion. Typical ranges: PLA 190-210\u00b0C, PETG 220-240\u00b0C, ABS 230-250\u00b0C. Check your filament manufacturer's specs. Increasing travel speed also helps \u2014 the faster the print head moves between print areas, the less time filament has to ooze out. Travel speeds of 120-200mm/s are common on modern printers. Many slicers let you set a higher speed just for travel moves."
+    "text": "Filament that is too hot will ooze more. Try lowering your print temperature in 5°C steps until stringing improves, but do not go so low that you get poor layer adhesion. Typical ranges: PLA 190-210°C, PETG 220-240°C, ABS 230-250°C. Check your filament manufacturer's specs. Increasing travel speed also helps — the faster the print head moves between print areas, the less time filament has to ooze out. Travel speeds of 120-200mm/s are common on modern printers. Many slicers let you set a higher speed just for travel moves."
   },
   {
     "doc_id": "stringing_007",
     "class": "stringing",
     "title": "Stringing: wipe, coasting, and filament drying",
-    "source": "MatterHackers \u2014 Retraction Revisited",
+    "source": "MatterHackers — Retraction Revisited",
     "url": "https://www.matterhackers.com/about/retraction-revisited-oozing-stringing-and-leaky-prints",
-    "text": "Wipe moves the nozzle back over the printed area while retracting, wiping off excess filament. Coasting stops extruding just before the end of a path, allowing pressure to release and preventing a blob. These features are available in most modern slicers like Bambu Studio, PrusaSlicer, and Cura \u2014 use them sparingly as overdoing it can cause under-extrusion. Moisture is a hidden enemy: even fresh spools can absorb water, especially PETG, Nylon, and flexible filaments. Dry your filament in a dedicated dryer or low-temp oven at 40-50\u00b0C for several hours."
+    "text": "Wipe moves the nozzle back over the printed area while retracting, wiping off excess filament. Coasting stops extruding just before the end of a path, allowing pressure to release and preventing a blob. These features are available in most modern slicers like Bambu Studio, PrusaSlicer, and Cura — use them sparingly as overdoing it can cause under-extrusion. Moisture is a hidden enemy: even fresh spools can absorb water, especially PETG, Nylon, and flexible filaments. Dry your filament in a dedicated dryer or low-temp oven at 40-50°C for several hours."
   },
   {
     "doc_id": "stringing_008",
     "class": "stringing",
     "title": "Stringing: nozzle wear, PTFE tubes, and hotend design",
-    "source": "MatterHackers \u2014 Retraction Revisited",
+    "source": "MatterHackers — Retraction Revisited",
     "url": "https://www.matterhackers.com/about/retraction-revisited-oozing-stringing-and-leaky-prints",
-    "text": "Old or worn nozzles can leak and string more. Make sure your Bowden or PTFE tubes are seated correctly and not worn out. Some hotends, like all-metal designs, handle retraction and oozing better especially at high temperatures. Nozzle and hardware design matters \u2014 some hotends are more prone to leaking with certain filaments. If you have recently changed any component in the hotend, check that all parts are in place and properly assembled. Re-applying thermal paste on the threads between the heatbreak and heatsink can help with heat dissipation issues."
+    "text": "Old or worn nozzles can leak and string more. Make sure your Bowden or PTFE tubes are seated correctly and not worn out. Some hotends, like all-metal designs, handle retraction and oozing better especially at high temperatures. Nozzle and hardware design matters — some hotends are more prone to leaking with certain filaments. If you have recently changed any component in the hotend, check that all parts are in place and properly assembled. Re-applying thermal paste on the threads between the heatbreak and heatsink can help with heat dissipation issues."
   },
   {
     "doc_id": "stringing_009",
     "class": "stringing",
     "title": "Stringing from damp filament and flow ratio",
-    "source": "Bambu Lab Wiki \u2014 Common Print Quality Problems",
+    "source": "Bambu Lab Wiki — Common Print Quality Problems",
     "url": "https://wiki.bambulab.com/en/knowledge-sharing/common-print-quality-problem",
-    "text": "Damp filament is a common cause of stringing and oozing. It is recommended to dry the filament first and then use it in an airtight container with desiccant. When the model has a long travel distance and a small retraction length, the filament flows out of the nozzle during travel \u2014 reduce spacing between models and appropriately increase retraction length or speed, but do not exceed 2mm retraction as too much causes clogs. If the nozzle temperature is too high, the molten filament viscosity becomes too small \u2014 properly reduce the nozzle temperature."
+    "text": "Damp filament is a common cause of stringing and oozing. It is recommended to dry the filament first and then use it in an airtight container with desiccant. When the model has a long travel distance and a small retraction length, the filament flows out of the nozzle during travel — reduce spacing between models and appropriately increase retraction length or speed, but do not exceed 2mm retraction as too much causes clogs. If the nozzle temperature is too high, the molten filament viscosity becomes too small — properly reduce the nozzle temperature."
   },
   {
     "doc_id": "stringing_010",
     "class": "stringing",
     "title": "Stringing: model structure and nozzle aperture",
-    "source": "Bambu Lab Wiki \u2014 Common Print Quality Problems",
+    "source": "Bambu Lab Wiki — Common Print Quality Problems",
     "url": "https://wiki.bambulab.com/en/knowledge-sharing/common-print-quality-problem",
-    "text": "When there are more discontinuous structures in a single model and the spacing between models is large, there will be long-distance traveling during printing, so melted filament drips down during travel causing stringing. Reduce the placement distance between models or enable 'Avoid crossing walls' to reduce the probability of stringing. A nozzle aperture that is too large causes more filament to flow out \u2014 ensure the selected nozzle size in the slicer matches the actual nozzle. Nozzles used for a long time with obvious wear should be replaced."
+    "text": "When there are more discontinuous structures in a single model and the spacing between models is large, there will be long-distance traveling during printing, so melted filament drips down during travel causing stringing. Reduce the placement distance between models or enable 'Avoid crossing walls' to reduce the probability of stringing. A nozzle aperture that is too large causes more filament to flow out — ensure the selected nozzle size in the slicer matches the actual nozzle. Nozzles used for a long time with obvious wear should be replaced."
   },
   {
     "doc_id": "stringing_011",
     "class": "stringing",
     "title": "Stringing: minimum layer time and power loss recovery pauses",
-    "source": "Polymaker Wiki \u2014 Blobs and Oozing",
+    "source": "Polymaker Wiki — Blobs and Oozing",
     "url": "https://wiki.polymaker.com/printing-tips/common-printing-issues/blobs-and-oozing",
     "text": "Many slicers set the Minimum Layer Time too high for most materials. This setting causes the hotend to pause after completing a layer faster than the specified minimum time. Such pauses often result in oozing, leading to blobs and strings. For most materials, a minimum layer time of 3 seconds is sufficient. Some printers offer power loss recovery by saving progress after each layer, but this feature can introduce brief pauses that cause blobs to form throughout the print. Disabling power loss recovery eliminates these pauses, though it removes the ability to resume after a power outage."
   },
@@ -203,7 +203,7 @@
     "doc_id": "under_extrusion_003",
     "class": "under_extrusion",
     "title": "Under-extrusion: what it looks like and quick checks",
-    "source": "Snapmaker Blog \u2014 3D Printer Under-Extrusion",
+    "source": "Snapmaker Blog — 3D Printer Under-Extrusion",
     "url": "http://www.snapmaker.com/blog/3d-printer-under-extrusion",
     "text": "Under-extrusion happens when the printer cannot supply the necessary amount of plastic to the nozzle. It is the single most common quality issue in FDM printing. It usually manifests in three ways: missing layers where distinct horizontal gaps appear and layers did not bond, pockmarks and gaps on top surfaces that look webbed rather than solid, and weak spongy parts that feel lighter and crumble under finger pressure. Note that if the issue is only on the very first layer, it might be a bed leveling issue where the nozzle is too close."
   },
@@ -211,31 +211,31 @@
     "doc_id": "under_extrusion_004",
     "class": "under_extrusion",
     "title": "Under-extrusion: filament path and spool resistance",
-    "source": "Snapmaker Blog \u2014 3D Printer Under-Extrusion",
+    "source": "Snapmaker Blog — 3D Printer Under-Extrusion",
     "url": "http://www.snapmaker.com/blog/3d-printer-under-extrusion",
-    "text": "Check if the spool is spinning freely. A tangled spool, often caused by letting go of the filament end during storage, will pull against the extruder. If the extruder has to fight the spool, it will lose grip and fail to push plastic. Also check filament diameter \u2014 while most modern printers use 1.75mm, accidental settings changes or poor-quality filament with inconsistent widths can cause jams in the Bowden tube. Moisture is the silent killer of print quality. As wet filament hits the hot nozzle, water boils into steam, creating bubbles and voids that result in a rough, under-extruded texture. Popping or hissing sounds while printing indicate wet filament."
+    "text": "Check if the spool is spinning freely. A tangled spool, often caused by letting go of the filament end during storage, will pull against the extruder. If the extruder has to fight the spool, it will lose grip and fail to push plastic. Also check filament diameter — while most modern printers use 1.75mm, accidental settings changes or poor-quality filament with inconsistent widths can cause jams in the Bowden tube. Moisture is the silent killer of print quality. As wet filament hits the hot nozzle, water boils into steam, creating bubbles and voids that result in a rough, under-extruded texture. Popping or hissing sounds while printing indicate wet filament."
   },
   {
     "doc_id": "under_extrusion_005",
     "class": "under_extrusion",
     "title": "Under-extrusion: temperature vs speed balance",
-    "source": "Snapmaker Blog \u2014 3D Printer Under-Extrusion",
+    "source": "Snapmaker Blog — 3D Printer Under-Extrusion",
     "url": "http://www.snapmaker.com/blog/3d-printer-under-extrusion",
-    "text": "If you try to print very fast but keep the temperature standard, the hot end cannot melt the plastic quickly enough to keep up with the flow. If you are pushing speeds above 60-80mm/s, try increasing your nozzle temperature by 5-10\u00b0C. This lowers the viscosity of the plastic, making it easier for the extruder to push. This is a balancing act \u2014 too much temperature increase causes stringing and oozing, while too little causes under-extrusion at high speeds."
+    "text": "If you try to print very fast but keep the temperature standard, the hot end cannot melt the plastic quickly enough to keep up with the flow. If you are pushing speeds above 60-80mm/s, try increasing your nozzle temperature by 5-10°C. This lowers the viscosity of the plastic, making it easier for the extruder to push. This is a balancing act — too much temperature increase causes stringing and oozing, while too little causes under-extrusion at high speeds."
   },
   {
     "doc_id": "under_extrusion_006",
     "class": "under_extrusion",
     "title": "Under-extrusion: partial clog and cold pull",
-    "source": "Snapmaker Blog \u2014 3D Printer Under-Extrusion",
+    "source": "Snapmaker Blog — 3D Printer Under-Extrusion",
     "url": "http://www.snapmaker.com/blog/3d-printer-under-extrusion",
-    "text": "A full clog stops printing entirely; a partial clog just restricts flow, leading to thin, weak lines. To check, heat the nozzle and extrude some plastic into the air. If it flows straight down, the nozzle is fine. If it curls up and sticks to the nozzle immediately, you likely have a partial clog. The solution is a Cold Pull (Atomic Method): heat the nozzle, insert a contrasting filament, cool it down, and yank it out to remove debris. Heat creep occurs when heat travels up the filament before it reaches the melt zone \u2014 the filament swells inside the cold zone and jams. Common cause is printing PLA in a fully enclosed chamber where ambient heat gets too high."
+    "text": "A full clog stops printing entirely; a partial clog just restricts flow, leading to thin, weak lines. To check, heat the nozzle and extrude some plastic into the air. If it flows straight down, the nozzle is fine. If it curls up and sticks to the nozzle immediately, you likely have a partial clog. The solution is a Cold Pull (Atomic Method): heat the nozzle, insert a contrasting filament, cool it down, and yank it out to remove debris. Heat creep occurs when heat travels up the filament before it reaches the melt zone — the filament swells inside the cold zone and jams. Common cause is printing PLA in a fully enclosed chamber where ambient heat gets too high."
   },
   {
     "doc_id": "under_extrusion_007",
     "class": "under_extrusion",
     "title": "Under-extrusion: filament grinding and feeding resistance",
-    "source": "Creality Blog \u2014 SPARKX i7 Under-Extrusion",
+    "source": "Creality Blog — SPARKX i7 Under-Extrusion",
     "url": "https://www.creality.com/blog/sparki-i7-guide-handling-under-extrusion-clogs",
     "text": "Common causes of filament grinding or extrusion without output include: the filament is ground down at the extruder gear preventing the gear from gripping properly, residual filament or foreign material inside the hotend increases feeding resistance, the filament spool has excessive rotational resistance or becomes jammed, the filament type in the slicer does not match the actual filament, or the PTFE tube is bent at a sharp angle increasing feeding resistance. Check the filament placement and ensure the spool is properly seated. Check that the filament parameter settings in the slicer match the filament being used."
   },
@@ -243,7 +243,7 @@
     "doc_id": "under_extrusion_008",
     "class": "under_extrusion",
     "title": "Under-extrusion: nozzle height and gearbox alignment",
-    "source": "Prusa Knowledge Base \u2014 Under-extrusion (Nextruder)",
+    "source": "Prusa Knowledge Base — Under-extrusion (Nextruder)",
     "url": "https://help.prusa3d.com/article/under-extrusion-nextruder-printers_821253",
     "text": "On Nextruder printers, under-extrusion causes include nozzle issues, slicer settings, gearbox alignment, and filament. For the nozzle: before proceeding, make sure the printer is fully cooled down and switched off. The nozzle has to be at the correct height and tightened. Loosen the thumb screws on the side of the heatbreak, push the nozzle up, and tighten the thumb screws by hand. For gearbox alignment: it is possible that the gearbox is not fully aligned after interventions involving the gearbox cover, causing under-extrusion. Follow the dedicated alignment procedure for your printer model."
   },
@@ -251,16 +251,159 @@
     "doc_id": "under_extrusion_009",
     "class": "under_extrusion",
     "title": "Under-extrusion: flow rate and pressure advance",
-    "source": "Bambu Lab Wiki \u2014 Common Print Quality Problems",
+    "source": "Bambu Lab Wiki — Common Print Quality Problems",
     "url": "https://wiki.bambulab.com/en/knowledge-sharing/common-print-quality-problem",
-    "text": "If the entire surface of the model is obviously lacking material, it is possible the flow rate is not enough \u2014 you can increase the flow rate a little in the slicer. If using official Bambu filament, use the default flow ratio and do not modify it at will. When the model is short of material at the corner, the pressure advance value is likely set incorrectly and the flow needs to be recalibrated. The function of flow calibration is to ensure that filament extruded remains uniform when the tool head is moving during printing, avoiding excessive or insufficient material at accelerating or decelerating nodes."
+    "text": "If the entire surface of the model is obviously lacking material, it is possible the flow rate is not enough — you can increase the flow rate a little in the slicer. If using official Bambu filament, use the default flow ratio and do not modify it at will. When the model is short of material at the corner, the pressure advance value is likely set incorrectly and the flow needs to be recalibrated. The function of flow calibration is to ensure that filament extruded remains uniform when the tool head is moving during printing, avoiding excessive or insufficient material at accelerating or decelerating nodes."
   },
   {
     "doc_id": "spaghetti_003",
     "class": "spaghetti",
     "title": "Spaghetti: why it happens and first-layer prevention",
-    "source": "Creality EU \u2014 Common 3D Printing Problems",
+    "source": "Creality EU — Common 3D Printing Problems",
     "url": "https://store.creality.com/eu/blogs/basics/common-3d-printing-problems",
     "text": "A spaghetti failure happens when the part detaches from the bed but the printer continues extruding. The result is a loose pile of filament instead of a finished model. Causes include the model losing bed adhesion during the print, the part being tall narrow or unstable, the print speed being too high, and the printer having no runout or failure detection enabled. Prevention: clean the plate and confirm Z-offset before long prints, add a brim for tall or narrow parts, reduce speed on tall prints, enable filament runout detection and failure detection where available, and place the printer on a stable surface."
+  },
+  {
+    "doc_id": "warping_011",
+    "class": "warping",
+    "title": "Warping: thermal shock and material shrinkage",
+    "source": "Prusa Knowledge Base - Warping",
+    "url": "https://help.prusa3d.com/article/warping_2011",
+    "date_accessed": "2026-10-13",
+    "verified": true,
+    "license_note": "Paraphrased summary. See source URL for original content.",
+    "text": "Warping is most common when printing large objects with high-temperature materials such as PC Blend, ASA, or ABS. It typically results from a sudden temperature difference between the nozzle's melting temperature and the ambient air. When this happens, the plastic shrinks and warps, causing the corners to lift from the bed. The goal is to minimize the thermal shock the printed part receives. Less warping also means less residual tension and a stronger final part."
+  },
+  {
+    "doc_id": "warping_012",
+    "class": "warping",
+    "title": "Warping fixes: cooling, ambient temperature, and adhesion aids",
+    "source": "Prusa Knowledge Base - Warping",
+    "url": "https://help.prusa3d.com/article/warping_2011",
+    "date_accessed": "2026-10-13",
+    "verified": true,
+    "license_note": "Paraphrased summary. See source URL for original content.",
+    "text": "To prevent warping, maintain stable ambient temperatures by avoiding open windows or AC units near the printer. High-temperature filaments require a higher ambient temperature to avoid distortion, often requiring an enclosure. For materials like PLA or PETG, ensure adequate print cooling. If corners are lifting, try increasing fan speed or enabling a low fan speed (10-20%) for steep overhangs. Applying a thin layer of glue stick on the steel sheet can help adhesion and protect the sheet. Using a brim or printing multiple objects at once can also retain heat and improve adhesion."
+  },
+  {
+    "doc_id": "under_extrusion_010",
+    "class": "under_extrusion",
+    "title": "Under-extrusion: first layer calibration and nozzle height",
+    "source": "Prusa Knowledge Base - Under-extrusion",
+    "url": "https://help.prusa3d.com/article/under-extrusion-nextruder-printers_821253",
+    "date_accessed": "2026-10-13",
+    "verified": true,
+    "license_note": "Paraphrased summary. See source URL for original content.",
+    "text": "Under-extrusion is recognizable when there is material missing in the print's layers, resulting in fragile objects that tend to break apart. One common cause is the first layer calibration being too close. If the nozzle is too close to the build plate, the filament can be obstructed from passing through. Avoid compensating for lack of adhesion by over-squishing the first layer. Run first-layer calibration whenever you move the printer or perform maintenance on the hotend, such as changing the nozzle."
+  },
+  {
+    "doc_id": "under_extrusion_011",
+    "class": "under_extrusion",
+    "title": "Under-extrusion: nozzle installation and special nozzles",
+    "source": "Prusa Knowledge Base - Under-extrusion",
+    "url": "https://help.prusa3d.com/article/under-extrusion-nextruder-printers_821253",
+    "date_accessed": "2026-10-13",
+    "verified": true,
+    "license_note": "Paraphrased summary. See source URL for original content.",
+    "text": "If the nozzle has been removed from the hotend, ensure it is reinstalled correctly. Incorrect installation can cause both clogs and leaks. The nozzle must be tightened when heated, and there must be a gap between the nozzle and the heater block. When using special nozzles such as hardened steel, you may need to increase the nozzle temperature by 5-10 degrees Celsius because steel has different thermal properties compared to brass. However, higher temperatures can also increase stringing."
+  },
+  {
+    "doc_id": "under_extrusion_012",
+    "class": "under_extrusion",
+    "title": "Under-extrusion: filament quality and temperature",
+    "source": "Prusa Knowledge Base - Under-extrusion",
+    "url": "https://help.prusa3d.com/article/under-extrusion-nextruder-printers_821253",
+    "date_accessed": "2026-10-13",
+    "verified": true,
+    "license_note": "Paraphrased summary. See source URL for original content.",
+    "text": "A printing temperature that is too low or too high can cause print issues. If your filament brand and type are not listed in the slicer, try adjusting the print temperature by +/- 5-15 degrees Celsius. Specialty materials like Flexible filament may require many adjustments. Composite materials like Woodfill may require a minimum 0.6mm nozzle and 0.2mm layer height to prevent clogging. Materials containing kevlar or carbon fiber require a hardened nozzle."
+  },
+  {
+    "doc_id": "stringing_012",
+    "class": "stringing",
+    "title": "Stringing: retraction and temperature settings",
+    "source": "Prusa Knowledge Base - Stringing and oozing",
+    "url": "https://help.prusa3d.com/article/stringing-and-oozing_1805",
+    "date_accessed": "2026-10-13",
+    "verified": true,
+    "license_note": "Paraphrased summary. See source URL for original content.",
+    "text": "Stringing or oozing refers to small strings of filament left on the printed model. This happens when filament continues to flow from the nozzle while the extruder moves to another object. The main causes are high printing temperatures and incorrect retraction settings. Lowering the nozzle temperature by 5-10 degrees Celsius can decrease stringing. Retraction length should be a maximum of 2mm for direct drive extruders, while Bowden setups may require up to 3.2mm. Filament moisture also contributes to stringing; drying the filament before printing can help."
+  },
+  {
+    "doc_id": "spaghetti_004",
+    "class": "spaghetti",
+    "title": "Spaghetti: definition and mechanism",
+    "source": "Prusa Knowledge Base - Spaghetti Monster",
+    "url": "https://help.prusa3d.com/article/spaghetti-monster_2132",
+    "date_accessed": "2026-10-13",
+    "verified": true,
+    "license_note": "Paraphrased summary. See source URL for original content.",
+    "text": "Spaghetti is a print failure where the extruder continues depositing filament into empty space after the printed part has detached from the build plate or collapsed. The result is a tangled mess of filament resembling pasta. It occurs when the underlying object moves or collapses during printing, causing the print head to misplace subsequent layers. If the first layer is not perfect, the likelihood of this type of print failure increases significantly."
+  },
+  {
+    "doc_id": "spaghetti_005",
+    "class": "spaghetti",
+    "title": "Spaghetti: first layer adhesion as primary cause",
+    "source": "Prusa Knowledge Base - Spaghetti Monster",
+    "url": "https://help.prusa3d.com/article/spaghetti-monster_2132",
+    "date_accessed": "2026-10-13",
+    "verified": true,
+    "license_note": "Paraphrased summary. See source URL for original content.",
+    "text": "The most common cause of spaghetti is the printed object detaching from the print bed during printing. This typically originates from poor first-layer adhesion. When the first layer does not properly stick to the entire print surface, the part can shift or lift, leading to subsequent layers being printed into empty space. Ensuring proper first-layer adhesion is the most effective prevention strategy."
+  },
+  {
+    "doc_id": "spaghetti_006",
+    "class": "spaghetti",
+    "title": "Spaghetti: model collapse and geometry issues",
+    "source": "Prusa Knowledge Base - Spaghetti Monster",
+    "url": "https://help.prusa3d.com/article/spaghetti-monster_2132",
+    "date_accessed": "2026-10-13",
+    "verified": true,
+    "license_note": "Paraphrased summary. See source URL for original content.",
+    "text": "Spaghetti can also occur when the printed object collapses during printing. Tall, narrow, or unstable geometries are prone to wobbling or toppling mid-print. Once the part collapses, the nozzle extrudes filament into air, creating spaghetti. Using a brim for tall narrow parts and reducing print speed for unstable geometries can help prevent this failure mode."
+  },
+  {
+    "doc_id": "spaghetti_007",
+    "class": "spaghetti",
+    "title": "Spaghetti: STL and slicer errors",
+    "source": "Prusa Knowledge Base - Spaghetti Monster",
+    "url": "https://help.prusa3d.com/article/spaghetti-monster_2132",
+    "date_accessed": "2026-10-13",
+    "verified": true,
+    "license_note": "Paraphrased summary. See source URL for original content.",
+    "text": "Errors within the 3D model or the sliced file can cause spaghetti. Gaps or broken geometry in the STL can result in missing layers or unexpected print behavior. Always check the generated G-code in the slicer preview. Slicers like PrusaSlicer display a warning triangle next to models with obvious problems. Repairing the STL file or using corrupted model repair tools can resolve these issues before printing."
+  },
+  {
+    "doc_id": "spaghetti_008",
+    "class": "spaghetti",
+    "title": "Spaghetti prevention: bed temperature and first layer checks",
+    "source": "Prusa Knowledge Base - Spaghetti Monster",
+    "url": "https://help.prusa3d.com/article/spaghetti-monster_2132",
+    "date_accessed": "2026-10-13",
+    "verified": true,
+    "license_note": "Paraphrased summary. See source URL for original content.",
+    "text": "If spaghetti has occurred before, try increasing the bed temperature by 5-10 degrees Celsius for the reprint to improve first-layer adhesion. This can be done during printing without re-slicing: start the print, then navigate to the LCD menu under Tune and Bed after mesh bed leveling is complete. Additionally, always verify the first layer adheres correctly across the entire print surface before leaving the print unattended."
+  },
+  {
+    "doc_id": "spaghetti_009",
+    "class": "spaghetti",
+    "title": "Spaghetti prevention: brim and part orientation",
+    "source": "Prusa Knowledge Base - Spaghetti Monster",
+    "url": "https://help.prusa3d.com/article/spaghetti-monster_2132",
+    "date_accessed": "2026-10-13",
+    "verified": true,
+    "license_note": "Paraphrased summary. See source URL for original content.",
+    "text": "Adding a brim in the slicer increases the surface area in contact with the build plate, providing additional adhesion and stability. This is especially effective for tall or narrow parts that are prone to wobbling. Orienting parts to have larger contact areas with the bed also improves stability. For high-temperature materials, placing the printer in an enclosure and maintaining stable ambient temperature reduces the risk of detachment."
+  },
+  {
+    "doc_id": "spaghetti_010",
+    "class": "spaghetti",
+    "title": "Spaghetti: detection and recovery",
+    "source": "Bambu Lab Wiki - Spaghetti Detection",
+    "url": "https://wiki.bambulab.com/en/knowledge-sharing/Spaghetti_detection",
+    "date_accessed": "2026-10-13",
+    "verified": true,
+    "license_note": "Paraphrased summary. See source URL for original content.",
+    "text": "Modern printers with camera-based systems can detect spaghetti failures automatically. The system takes frames from the chamber camera and feeds them to an AI detector. If enough positive candidates are detected across the last 10 frames and they are spatially consistent, a spaghetti failure is confirmed. Once spaghetti has formed, the print cannot be recovered. The only remedy is to stop the print, clean the nozzle and bed, and restart with corrected first-layer settings."
   }
 ]

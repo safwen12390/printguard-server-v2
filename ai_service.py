@@ -111,21 +111,30 @@ Answer using ONLY the CONTEXT. Cite each claim with [doc_id].
 CITATION_RE = re.compile(r"[\[【［]\s*(\w+_\d+)\s*[\]】］]")
 
 
-def retrieve_for_defect(defect_class, k=3):
+def retrieve_for_defect(defect_class, k=3, user_question=None):
+    """
+    Retrieve top-k documents for a defect class.
+    If user_question is provided, uses it as the semantic query string.
+    Otherwise, uses a generic class-level query (proactive mode).
+    """
     collection = _init_collection()
+    if user_question and user_question.strip():
+        query = f"{user_question.strip()} (about {defect_class} in FDM 3D printing)"
+    else:
+        query = f"causes and fixes for {defect_class} in FDM 3D printing"
     results = collection.query(
-        query_texts=[f"causes and fixes for {defect_class} in FDM 3D printing"],
+        query_texts=[query],
         n_results=k,
         where={"class": defect_class},
     )
     docs = []
     for i in range(len(results["ids"][0])):
         docs.append({
-            "doc_id":   results["ids"][0][i],
-            "text":     results["documents"][0][i],
-            "title":    results["metadatas"][0][i]["title"],
-            "source":   results["metadatas"][0][i]["source"],
-            "url":      results["metadatas"][0][i].get("url", ""),
+            "doc_id": results["ids"][0][i],
+            "text": results["documents"][0][i],
+            "title": results["metadatas"][0][i]["title"],
+            "source": results["metadatas"][0][i]["source"],
+            "url": results["metadatas"][0][i].get("url", ""),
             "distance": results["distances"][0][i],
         })
     return docs
@@ -181,7 +190,7 @@ def diagnose(defect_class, confidence, user_question=None):
             "sources": [],
         }
 
-    docs = retrieve_for_defect(defect_class, k=3)
+    docs = retrieve_for_defect(defect_class, k=3, user_question=user_question)
     if not docs:
         return {
             "analysis": f"No knowledge base entries for '{defect_class}'.",
